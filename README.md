@@ -97,8 +97,14 @@ Integration with a cloud-based database (Firebase/SQL).
 Mobile application support using Flutter.
 Liveness detection to prevent spoofing with photos.
 
-## 🤝 Contributing
-[Chaitanya Bolake] - Lead Developer - @ChaitanyaBolake
+## 👥 Contributors
+* **[Chaitanya Bolake](https://github.com/ChaitanyaBolake) - Lead Developer**
+    * Designed system architecture and core logic.
+    * Implemented face detection and recognition algorithms using OpenCV.
+    * Optimized real-time video processing performance.
 
-[Rushikesh Gadade] - Co-Developer - @ItsRushi1
+* **[Rushikesh Gadade](https://github.com/ItsRushi1) - Co-Developer**
+    * Developed the user interface (GUI) using `Tkinter`.
+    * Managed CSV database integration for automated logging.
+    * Handled system integration and project documentation.
 
