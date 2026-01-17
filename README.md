@@ -22,36 +22,57 @@ This project automates the traditional attendance process by capturing real-time
 - **CSV Module:** For storing attendance records.
 - **OS & Datetime:** For file management and timestamping.
 
-📖 How to Use
-Register a New Student:
+## ⚙️ Installation & Setup
+Follow these steps to set up the project on your local machine.
 
-Enter the ID and Name in the GUI.
+### 1. System Prerequisites
+* **Python:** Ensure Python 3.8 or higher is installed.
+* **C++ Build Tools (Windows Users):**
+    The `dlib` library requires C++ compilers. If you face errors installing `dlib`, download the [Visual Studio Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/) and select **"Desktop development with C++"** during installation.
 
-Click "Take Images" to capture the face samples.
+### 2. Clone the Repository
+Open your terminal or command prompt and run:
 
-Click "Save Profile" to store the encoding.
+```bash
+git clone [https://github.com/ChaitanyaBolake/face-attendance-system.git](https://github.com/ChaitanyaBolake/face-attendance-system.git)
+cd face-attendance-system
+```
 
-Take Attendance:
+## 3. Create a Virtual Environment (Recommended)
+It is best practice to use a virtual environment to manage dependencies.
+```bash
+# For Windows
+python -m venv venv
+venv\Scripts\activate
 
-Click "Track Attendance".
+# For macOS/Linux
+python3 -m venv venv
+source venv/bin/activate
+```
+## 4. Install Dependencies
+Install the required libraries step-by-step to avoid compilation errors.
 
-The webcam will open; simply look at the camera.
+Step 1: Install CMake (Required for building dlib)
+```bash
+pip install cmake
+```
+Step 2: Install dlib Note: This may take a few minutes to compile.
+```bash
+pip install dlib
+```
+Step 3: Install Project Requirements
+```bash
+pip install opencv-python numpy pandas face_recognition
+```
+## 5. Setup Project Files
+Ensure you have the necessary Haarcascade file in your project directory.
 
-Attendance is marked instantly when a match is found.
+Download haarcascade_frontalface_default.xml from the OpenCV GitHub and place it in the root folder.
 
-View Records:
+Create a folder named Images (to save student photos) and Attendance (to save CSV logs) if they don't exist.
 
-Open the generated CSV file in the Attendance folder or view via the GUI table.
-
-🔮 Future Scope
-Integration with a cloud-based database (Firebase/SQL).
-
-Mobile application support using Flutter.
-
-Liveness detection to prevent spoofing with photos.
-
-🤝 Contributing
-
-cmake
-dlib
-Would you like help
+## 6. Run the Application
+Start the system by running the main Python script:
+```bash
+python main.py
+```
