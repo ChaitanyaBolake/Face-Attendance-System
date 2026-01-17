@@ -52,17 +52,18 @@ source venv/bin/activate
 ## 4. Install Dependencies
 Install the required libraries step-by-step to avoid compilation errors.
 
-Step 1: Install CMake (Required for building dlib)
-```bash
-pip install cmake
-```
-Step 2: Install dlib Note: This may take a few minutes to compile.
+
+Step 1: Install dlib Note: This may take a few minutes to compile.
 ```bash
 pip install dlib
 ```
-Step 3: Install Project Requirements
+Step 2: Install Project Requirements
 ```bash
-pip install opencv-python numpy pandas face_recognition
+pip install OpenCV-python 
+pip install face_recognition
+pip intall Numpy
+pip install Pandas
+pip install Datetime
 ```
 ## 5. Setup Project Files
 Ensure you have the necessary Haarcascade file in your project directory.
@@ -97,4 +98,7 @@ Mobile application support using Flutter.
 Liveness detection to prevent spoofing with photos.
 
 ## 🤝 Contributing
+[Chaitanya Bolake] - Lead Developer - @ChaitanyaBolake
+
+[Rushikesh Gadade] - Co-Developer - @ItsRushi1
 
