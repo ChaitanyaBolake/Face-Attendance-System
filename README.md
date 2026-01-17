@@ -76,3 +76,25 @@ Start the system by running the main Python script:
 ```bash
 python main.py
 ```
+## 📖 How to Use
+
+Register a New Student:
+1) Enter the ID and Name in the GUI.
+2) Click "Take Images" to capture the face samples.
+3) Click "Save Profile" to store the encoding.
+
+Take Attendance:
+1) Click "Track Attendance".
+2) The webcam will open; simply look at the camera.
+3)Attendance is marked instantly when a match is found.
+
+View Records:
+Open the generated CSV file in the Attendance folder or view via the GUI table.
+
+## 🔮 Future Scope
+Integration with a cloud-based database (Firebase/SQL).
+Mobile application support using Flutter.
+Liveness detection to prevent spoofing with photos.
+
+## 🤝 Contributing
+
