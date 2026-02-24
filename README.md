@@ -90,5 +90,3 @@ Mobile app integration <br>
 Liveness detection to prevent photo spoofing <br>
 Deployment as a web-based system <br>
 
-# 👨‍💻 Author : 
-Chaitanya R Bolake : https://github.com/ChaitanyaBolake
