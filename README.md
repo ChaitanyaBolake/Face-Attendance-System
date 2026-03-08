@@ -3,7 +3,7 @@
 An automated attendance management system built using Python and Computer Vision.
 The system detects and recognizes faces in real-time using a webcam and automatically records attendance with date and time.
 
-# 📌 Project Objective
+# 📌 Project Objective!
 
 This project eliminates manual attendance systems and prevents proxy attendance using facial recognition technology.
 It improves:
